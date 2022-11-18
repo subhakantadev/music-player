@@ -1,10 +1,10 @@
 import { Error, Loader, SongCard } from "../components";
 import { genres } from "../assets/constants";
 
-import { useGetTopChartsquery } from "../redux/services/shazamCore";
+import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
 const Discover = () => {
-  const { data, isFetching, error } = useGetTopChartsquery();
+  const { data, isFetching, error } = useGetTopChartsQuery();
 
   console.log(data);
 
