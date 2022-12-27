@@ -12,7 +12,7 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 import "swiper/css";
 import "swiper/css/free-mode";
 
-//merg
+var s = 100;
 
 const TopPlay = () => {
   const dispatch = useDispatch();
