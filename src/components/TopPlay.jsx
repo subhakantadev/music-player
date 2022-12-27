@@ -12,6 +12,8 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 import "swiper/css";
 import "swiper/css/free-mode";
 
+var s = 100;
+
 const TopPlay = () => {
   const dispatch = useDispatch();
   const [activeSong, isPlaying] = useSelector((state) => state.player);
