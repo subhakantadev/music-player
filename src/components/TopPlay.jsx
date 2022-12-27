@@ -27,6 +27,7 @@ const TopPlay = () => {
     dispatch(setActiveSong({ song, i, data }));
     dispatch(playPause(true));
   };
+  ///testing 2
   //useEffect to scroll to top
   return (
     <div
